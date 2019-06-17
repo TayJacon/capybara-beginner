@@ -7,6 +7,9 @@ Extensions used on visual code:
 - One Dark Pro
 
 ## Setup 
+### Windows
+On windows is important use C://
+
 To use capybara it's necessary have ruby installed. So, access https://rubyinstaller.org/downloads/ and install the option with Devkit. On the end it's important uncheck the option to run 'ridk install'.
 
 To check with ruby is installed run:
@@ -14,4 +17,16 @@ To check with ruby is installed run:
 
 After install run:
 ```ridk install```
-And select the option 3.
+First selection: Select the option 3.
+Second selection: Press enter.
+
+Install bundler
+```gem install bundler```
+```gem env```
+
+Note: To start rspec projec: rspec --init
+
+### chromedriver
+To use chrome on tests it's important have chromedriver. Let's download the last version on https://chromedriver.storage.googleapis.com/index.html.
+
+After download it's importante update the system variables (https://developers.refinitiv.com/sites/default/files/How%20To%20Add%20ChromeDriver%20To%20System%20Variables_0.pdf)
