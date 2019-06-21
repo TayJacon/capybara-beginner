@@ -26,7 +26,9 @@ Install bundler
 
 Note: To start rspec projec: rspec --init
 
-### chromedriver
+### chromedriver and geckodriver
 To use chrome on tests it's important have chromedriver. Let's download the last version on https://chromedriver.storage.googleapis.com/index.html.
+
+To use firefox on tests it's important have geckodriver. Let's download the last version on https://github.com/mozilla/geckodriver/releases
 
 After download it's importante update the system variables (https://developers.refinitiv.com/sites/default/files/How%20To%20Add%20ChromeDriver%20To%20System%20Variables_0.pdf)
