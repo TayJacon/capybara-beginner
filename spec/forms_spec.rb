@@ -1,8 +1,10 @@
 describe 'Forms' do
 
-    it 'Sucess login' do
+    before(:each) do
         visit 'http://training-wheels-protocol.herokuapp.com/login'
-        
+    end
+
+    it 'Sucess login' do
         fill_in 'username', with: 'stark'
         fill_in 'password', with: 'jarvis!'
 
@@ -12,9 +14,7 @@ describe 'Forms' do
         expect(find('#flash')).to have_content 'Olá, Tony Stark. Você acessou a área logada!'
     end
 
-    it 'Wrong password' do
-        visit 'http://training-wheels-protocol.herokuapp.com/login'
-        
+    it 'Wrong password' do        
         fill_in 'username', with: 'stark'
         fill_in 'password', with: 'test!'
 
@@ -24,9 +24,7 @@ describe 'Forms' do
         expect(find('#flash')).to have_content 'Senha é invalida!'
     end
 
-    it 'Uset not register' do
-        visit 'http://training-wheels-protocol.herokuapp.com/login'
-        
+    it 'Uset not register' do        
         fill_in 'username', with: 'abc'
         fill_in 'password', with: 'test!'
 
