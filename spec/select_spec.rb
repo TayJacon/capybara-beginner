@@ -3,7 +3,7 @@ describe 'Select', :select do
     describe 'Simple', :simple do
 
         before(:each) do
-            visit 'http://training-wheels-protocol.herokuapp.com/apps/select2/single.html'
+            visit '/apps/select2/single.html'
         end
     
         it 'Select an actor by name' do
@@ -20,7 +20,7 @@ describe 'Select', :select do
 
     describe 'Multiple', :multiple do
         before(:each) do
-            visit 'http://training-wheels-protocol.herokuapp.com/apps/select2/multi.html'
+            visit '/apps/select2/multi.html'
         end
 
         def selectActor (actor)

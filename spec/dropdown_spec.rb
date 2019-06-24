@@ -2,7 +2,7 @@
 describe 'Dropdown', :dropdown do
 
     before(:each) do
-        visit 'http://training-wheels-protocol.herokuapp.com/dropdown'
+        visit '/dropdown'
     end
 
     it 'Specific item' do

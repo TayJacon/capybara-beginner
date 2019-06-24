@@ -4,7 +4,7 @@ describe 'My first script', :hello do
 
   end
   it 'Visiting my first page' do
-    visit 'http://training-wheels-protocol.herokuapp.com/' 
+    visit '/' 
     puts page.title 
   end
 end

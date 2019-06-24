@@ -1,7 +1,7 @@
 describe 'Login 2', :login2 do
 
     before(:each) do
-        visit 'http://training-wheels-protocol.herokuapp.com/login2'
+        visit '/login2'
     end
 
     it 'With birthday date' do

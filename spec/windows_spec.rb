@@ -1,7 +1,7 @@
 describe 'Switch windows', :wnd do
 
     before(:each) do
-        visit 'http://training-wheels-protocol.herokuapp.com/windows'
+        visit '/windows'
     end
 
     it 'New window' do

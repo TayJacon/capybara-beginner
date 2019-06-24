@@ -1,7 +1,7 @@
 describe 'Login', :login do
 
     before(:each) do
-        visit 'http://training-wheels-protocol.herokuapp.com/login'
+        visit '/login'
     end
 
     it 'Sucess login' do

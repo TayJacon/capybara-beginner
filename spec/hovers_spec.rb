@@ -1,7 +1,7 @@
 describe 'Mouse over', :hovers do
 
     before(:each) do
-        visit 'http://training-wheels-protocol.herokuapp.com/hovers'
+        visit '/hovers'
     end
 
     it 'Blade card' do
