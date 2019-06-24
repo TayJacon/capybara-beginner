@@ -10,7 +10,7 @@ describe 'Dynamic Control', :dc do
         res = page.has_field? 'movie', disabled: true
         puts res
         
-        click_button 'Enable'
+        click_button 'Habilita'
 
         res = page.has_field? 'movie', disabled: false
         puts res
