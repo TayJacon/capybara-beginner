@@ -23,6 +23,7 @@ Second selection: Press enter.
 Install bundler
 ```gem install bundler```
 ```gem env```
+```bundle install```
 
 Note: To start rspec projec: rspec --init
 
